@@ -1,0 +1,138 @@
+<html>
+ <head>
+  <title>
+   Edit Profil
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .profile-pictures {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .profile-pictures img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+        .edit-photo {
+            text-align: center;
+            color: #1DA1F2;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #888888;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #333333;
+            border-radius: 5px;
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 16px;
+        }
+        .form-group select {
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23ffffff" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 8px 10px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <a href="https://lann-afk.github.io/revisi7/" class="fas fa-arrow-left"></a>
+    <h1>
+   <button>Edit profil</button>
+    </h1>
+   </div>
+   <div class="profile-pictures">
+    <img alt="Default profile picture" height="80" src="WhatsApp Image 2024-10-14 at 00.57.43_6f3c9f5e.jpg"/>
+    <img alt="Avatar picture" height="80" src="WhatsApp Image 2024-10-14 at 00.53.25_b439159a.jpg"/>
+   </div>
+   <div class="edit-photo">
+    Edit foto atau avatar
+   </div>
+   <div class="form-group">
+    <label for="name">
+     Nama
+    </label>
+    <input id="name" placeholder="Nama" type="text"/>
+   </div>
+   <div class="form-group">
+    <label for="username">
+     Nama pengguna
+    </label>
+    <input id="username" readonly="" type="text" value="Dear&el"/>
+   </div>
+   <div class="form-group">
+    <label for="pronouns">
+     Kata ganti
+    </label>
+    <input id="pronouns" readonly="" type="text" value="she"/>
+   </div>
+   <div class="form-group">
+    <label for="bio">
+     Bio
+    </label>
+    <input id="bio" readonly="" type="text" value="Always together"/>
+   </div>
+   <div class="form-group">
+    <label for="link">
+     Tambahkan tautan
+    </label>
+    <input id="link" placeholder="Tambahkan tautan" type="text"/>
+   </div>
+   <div class="form-group">
+    <label for="banner">
+     Tambahkan banner
+    </label>
+    <input id="banner" placeholder="Tambahkan banner" type="text"/>
+   </div>
+   <div class="form-group">
+    <label for="gender">
+     Jenis kelamin
+    </label>
+    <select id="gender">
+     <option>
+      Memilih untuk tidak memberi tahu 
+     </option>
+    </select>
+   </div>
+  </div>
+ </body>
+</html>
